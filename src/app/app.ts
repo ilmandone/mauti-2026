@@ -1,8 +1,9 @@
-import { Component, signal } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import {Component, signal} from '@angular/core';
+import {RouterOutlet} from '@angular/router';
+import {LucideFileText} from '@lucide/angular';
 
 @Component({
-  imports: [RouterOutlet],
+  imports: [RouterOutlet, LucideFileText],
   selector: 'app-root',
   styleUrl: './app.css',
   templateUrl: './app.html',
