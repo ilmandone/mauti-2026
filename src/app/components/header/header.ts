@@ -6,7 +6,7 @@ import {HeaderLogo} from './header-logo/header-logo';
   selector: 'header[mauti]',
   templateUrl: './header.html',
   host: {
-    '[class]': "'absolute top-0 left-0 w-screen p-6 md:p-10 lg:px-14 lg:py-13 flex justify-end bg-red-300'"
+    '[class]': "'absolute top-0 left-0 w-screen p-6 md:p-9 lg:px-14 lg:py-12 flex justify-end'"
   }
 })
 export class Header {}

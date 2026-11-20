@@ -34,7 +34,7 @@ import {Component, input} from '@angular/core';
   `,
   styles: `
     :host {
-      display: block;
+      position: relative;
     }
 
     .app-header-logo__svg {
@@ -44,5 +44,5 @@ import {Component, input} from '@angular/core';
   `,
 })
 export class LogoLines {
-  readonly fill = input<string>('currentColor');
+  readonly fill = input<string>('black');
 }
