@@ -9,7 +9,7 @@ import {Footer} from './components/footer/footer';
   styleUrl: './app.css',
   templateUrl: './app.html',
   host: {
-    '[class]': "'relative block p-6 md:p-10 lg:p-14'"
+    '[class]': "'relative block h-screen p-6 md:p-10 lg:p-14 overflow-auto'"
   }
 
 })
