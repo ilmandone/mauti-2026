@@ -1,8 +1,17 @@
 /* You can add global styles to this file, and also import other style files */
 
-@import './styles/font.css';
+@import url('https://fonts.googleapis.com/css2?family=Geist:ital,wght@0,100..900;1,100..900&display=swap');
 @import 'tailwindcss';
 
 @theme {
   --font-sans: 'Geist', ui-sans-serif, system-ui, sans-serif;
+  --color-mauti-red: var(--mauti-red);
+  --color-mauti-cyan: var(--mauti-cyan);
+  --color-mauti-gray: var(--mauti-gray);
+}
+
+:root {
+  --mauti-red: oklch(58.7% 0.237 23.7);
+  --mauti-cyan: oklch(88.8% 0.098 193.1);
+  --mauti-gray: oklch(87.2% 0.009 258.3);
 }
