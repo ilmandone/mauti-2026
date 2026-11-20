@@ -1,6 +1,5 @@
-import {afterNextRender, Component, inject, signal} from '@angular/core';
+import {Component, signal} from '@angular/core';
 import {RouterOutlet} from '@angular/router';
-import {LucideFileText} from '@lucide/angular';
 import {Header} from './components/header/header';
 import {Footer} from './components/footer/footer';
 
