@@ -1,12 +1,12 @@
 import { Component } from '@angular/core';
+import {HeaderLogo} from './header-logo/header-logo';
 
 @Component({
-  imports: [],
+  imports: [HeaderLogo],
   selector: 'header[mauti]',
-  styleUrl: './header.css',
   templateUrl: './header.html',
   host: {
-    '[class]': "'relative block'"
+    '[class]': "'absolute top-0 left-0 w-screen p-6 md:p-10 lg:px-14 lg:py-13 flex justify-end bg-red-300'"
   }
 })
 export class Header {}
