@@ -8,6 +8,10 @@ import {Footer} from './components/footer/footer';
   selector: 'app-root',
   styleUrl: './app.css',
   templateUrl: './app.html',
+  host: {
+    '[class]': "'relative block p-6 md:p-10 lg:p-14'"
+  }
+
 })
 export class App {
   protected readonly title = signal('mauti-2026');

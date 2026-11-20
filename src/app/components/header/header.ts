@@ -5,5 +5,8 @@ import { Component } from '@angular/core';
   selector: 'header[mauti]',
   styleUrl: './header.css',
   templateUrl: './header.html',
+  host: {
+    '[class]': "'relative block'"
+  }
 })
 export class Header {}
